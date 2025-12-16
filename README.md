@@ -76,8 +76,6 @@ def test_add_item_to_cart(inventory_page):
 
 # 5. Test Coverage
 
----
-
 ### **5.1 Login Tests**
 
 #### **Successful Login**
@@ -92,8 +90,6 @@ def test_add_item_to_cart(inventory_page):
 
 These tests validate authentication logic and basic security controls.
 
----
-
 ### **5.2 Cart Tests**
 
 #### **Add Item to Cart**
@@ -102,8 +98,6 @@ These tests validate authentication logic and basic security controls.
 - Cart page displays the correct number of items
 
 This ensures that core shopping cart functionality works as expected.
-
----
 
 ### **5.3 Checkout End-to-End Flow**
 
