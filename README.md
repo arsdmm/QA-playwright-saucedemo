@@ -173,28 +173,31 @@ pytest -v
 ``` md
 project/
 │
-├── pages/                # Page Object Model (POM)
+├── pages/                          # Page Object Model (POM)
+│   ├── __init__.py
 │   ├── base_page.py
 │   ├── login_page.py
 │   ├── inventory_page.py
 │   ├── cart_page.py
 │   ├── checkout_page.py
 │   ├── checkout_overview_page.py
-│   ├── checkout_complete_page.py
-│   └── __init__.py
+│   └── checkout_complete_page.py
 │
-├── tests/                # UI test cases
+├── tests/                          # UI test cases
 │   ├── test_login.py
 │   ├── test_cart.py
 │   └── test_checkout.py
 │
-├── reports/              # Screenshots / reports (optional)
+├── __pycache__/                    # Python cache (auto-generated)
+├── .pytest_cache/                  # pytest cache (auto-generated)
 │
-├── conftest.py           # pytest fixtures (auto-login, base_url)
-├── pytest.ini            # pytest configuration
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── venv/                           # Virtual environment (local)
+│
+├── conftest.py                     # pytest fixtures (auto-login, base_url)
+├── pytest.ini                      # pytest configuration
+├── requirements.txt                # Project dependencies
+├── README.md                       # Project documentation
+└── .gitignore                      # Git ignore rules
 ```
 
 ---
