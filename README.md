@@ -18,11 +18,6 @@ The main goal is to demonstrate **real-world QA Automation practices**, includin
 
 ---
 
-Example:
-![Test Execution](reports/test_execution.png)
-
----
-
 # 2. Application Under Test
 
 **Application:** SauceDemo  
