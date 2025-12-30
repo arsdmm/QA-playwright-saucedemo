@@ -1,4 +1,4 @@
-# QA UI Automation - Playwright + Python (SauceDemo)
+# к
 A UI automation testing framework built with Playwright and pytest, focusing on end-to-end user flows, Page Object Model (POM), and reusable test architecture.
 
 ---
